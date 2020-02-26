@@ -2,6 +2,10 @@
 
 /* No borders on image links */
 
+body {
+	background-color: #104def;
+}
+
 a:link img, a:visited img { border-style: none }
 
 address img { float: right; width: 88px; height: 31px; }
@@ -16,14 +20,27 @@ p.title {
 
 h1 {
   font-weight: bold;
-  color: darkblue;
+  color: black;
 }
 
 h2 {
-  color: darkgreen;
+  color: black;
+}
+
+h4 {
+  color: black;
+}
+
+p {
+  color: #EFB210;
+}
+
+li.alpha {
+  color: #EFB210;
 }
 
 .www_title  { font-family: "Georgia,Palatino,Times,Roman";
+			  color: #EFB210;
               font-size: 26pt; 
               text-align: center;}
 
@@ -43,7 +60,7 @@ h2 {
                vertical-align: middle;
                font-family: "Georgia,Palatino,Times,Roman";
                font-weight: bold; font-size: 18pt;
-               background: url("/images/lines.gif");
+               background: url("/images/lines.png");
                padding: 0.1em 0.1em 0.1em .1em; 
                width: 100%;
                margin-bottom: 0.3em; }
